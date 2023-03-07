@@ -15,7 +15,7 @@ def weekday_name(day_of_week):
     if day_of_week < 1 or day_of_week > 7:
         return None
 
-    daysOfWeek = {
+    days_of_week = {
         1: 'Sunday',
         2: 'Monday',
         3: 'Tuesday',
@@ -25,4 +25,6 @@ def weekday_name(day_of_week):
         7: 'Saturday'
     }
 
-    return daysOfWeek[day_of_week]
+    return days_of_week[day_of_week]
+
+    # .get()

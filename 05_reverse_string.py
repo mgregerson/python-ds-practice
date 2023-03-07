@@ -8,10 +8,4 @@ def reverse_string(phrase):
         'ecuas'
     """
 
-    letters = list(phrase)
-    letters.reverse()
-    reversed = ''
-    for letter in letters:
-        reversed += letter
-
     return phrase[::-1]
