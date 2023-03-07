@@ -21,9 +21,11 @@ def partition(lst, fn):
     """
 
     partitioned = [[],[]]
+
     for item in lst:
         if fn(item):
             partitioned[0].append(item)
         else:
             partitioned[1].append(item)
+            
     return partitioned

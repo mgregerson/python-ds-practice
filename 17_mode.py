@@ -12,14 +12,17 @@ def mode(nums):
         2
     """
     freqs = {}
+
     for num in nums:
         if num in freqs:
             freqs[num] += 1
         else:
             freqs[num] = 1
+
     highest = 0
+
     for key in freqs:
         if freqs[key] > highest:
-
             highest = key
+
     return highest
